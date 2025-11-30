@@ -107,10 +107,10 @@ Real-World Impact
 
 🎬 Demo
 Live Demo
-🔗 Try DataCare AI Live (Coming Soon)
+🔗 https://dataspecter-ai.streamlit.app/
 
 Video Walkthrough
-📺 Watch 2-Minute Demo on YouTube (Coming Soon)
+📺 Youtube link : https://youtu.be/MvwzbqANUXc
 
 Quick Demo Steps
 bash
@@ -512,16 +512,17 @@ Features: Multi-source reasoning, executive summaries, citations
 
 📊 Performance Metrics
 Speed Benchmarks
-Operation	Time	Data Size
-CSV Load	<1s	100K rows
-Preprocessing	2-5s	100K rows
-KPI Analysis	1-3s	Any size
-ARIMA Forecast	2-5s	500 observations
-Prophet Forecast	3-8s	Any size
-Random Forest	<1s	Any size
-RAG Document Load	1-2s	Per document
-RAG Search	<100ms	Per query
-LLM Response	2-5s	Provider-dependent
+Operation	    Time	    Data Size
+CSV Load	    <1s	        100K rows
+Preprocessing	2-5s	    100K rows
+KPI Analysis	1-3s	    Any size
+ARIMA Forecast	2-5s	    500observations
+Prophet Forecast 3-8s	    Any size
+Random Forest	<1s	        Any size
+RAG Document Load 1-2s	    Per document
+RAG Search	     <100ms	    Per query
+LLM Response	  2-5s      Provider-dependent
+
 Accuracy Metrics
 Forecasting RMSE: <5% on validation sets
 
@@ -573,7 +574,19 @@ gcloud run deploy datacare-ai \
   --port 8501 \
   --allow-unauthenticated \
   --set-env-vars GROQ_API_KEY=your_key_here
+
 📖 Full Deployment Guide in DEPLOYMENT.md
+
+📸 Screenshots
+Main Dashboard
+Single Dataset
+Multi Dataset CSV
+Monetary Analysis
+Document RAG
+
+All the analysis mention 
+
+Refer folder Screenshots
 
 📚 Documentation
 Core Documentation
