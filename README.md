@@ -732,7 +732,7 @@ Stack Overflow - Technical Q&A support
 
 📞 Contact & Support
 Get Help
-📧 Email: yasir.waqas@example.com,pathanayesha593@gmail.com
+📧 Email: yasirwaqas52@gmail.com,pathanayesha593@gmail.com
 
 💬 Kaggle Discussion: Competition Thread
 
