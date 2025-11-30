@@ -41,6 +41,6 @@ prophet==1.1.5
 
 # ==================== RAG & EMBEDDINGS ====================
 sentence-transformers==2.3.1
-faiss-cpu==1.7.4
+# faiss-cpu==1.7.4
 PyPDF2==3.0.1
 python-docx==1.1.0
