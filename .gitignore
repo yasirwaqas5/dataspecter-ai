@@ -1,0 +1,149 @@
+# ==================== SECRETS (CRITICAL - NEVER COMMIT!) ====================
+.streamlit/secrets.toml
+.env
+.env.local
+.env.*.local
+*.key
+secret_*.txt
+
+
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+agents/__pycache__/
+
+
+# ==================== VIRTUAL ENVIRONMENT ====================
+venv/
+ENV/
+env/
+.venv
+
+
+# ==================== IDEs ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+
+# ==================== JUPYTER NOTEBOOK ====================
+.ipynb_checkpoints
+
+
+# ==================== DATA FILES (Sample data OK, user uploads ignored) ====================
+# Ignore all data files EXCEPT example datasets
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# BUT keep example datasets for demo (if you have them)
+!sample_data/retail_sales.csv
+!sample_data/iot_sensor.csv
+!sample_data/financial_transactions.csv
+!sample_data/healthcare.csv
+
+# Data directories
+data/
+uploads/
+!data/.gitkeep
+
+
+# ==================== OUTPUTS ====================
+outputs/
+results/
+*.html
+*.pdf
+*.png
+*.jpg
+!docs/*.png
+!docs/*.jpg
+
+
+# ==================== CACHE ====================
+.cache/
+.streamlit/cache/
+*.cache
+
+
+# ==================== LOGS ====================
+*.log
+logs/
+
+
+# ==================== OS ====================
+Thumbs.db
+.DS_Store
+
+
+# ==================== TEST FILES ====================
+test_data/
+temp/
+tmp/
+
+
+# ==================== MODEL FILES ====================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+models/
+
+
+# ==================== STREAMLIT SPECIFIC ====================
+# Keep secrets.toml OUT (CRITICAL!)
+.streamlit/secrets.toml
+
+# But allow config.toml and credentials.toml if needed
+!.streamlit/config.toml
+!.streamlit/credentials.toml
+
+
+# ==================== DEPLOYMENT ====================
+# Docker (if using)
+.dockerignore
+docker-compose.override.yml
+
+# Heroku
+*.log
+.idea/
+
+
+# ==================== MISC ====================
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# API keys and tokens
+api_keys.txt
+tokens.txt
+credentials.json
+service_account.json
